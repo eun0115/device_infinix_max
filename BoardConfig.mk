@@ -34,6 +34,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1 buildvariant=user androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_BASE := 0x40000000
