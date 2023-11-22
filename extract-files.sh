@@ -18,8 +18,8 @@
 
 set -e
 
-export DEVICE=RMX2020
-export VENDOR=realme
+export DEVICE=max
+export VENDOR=infinix
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

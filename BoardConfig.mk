@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX2020
+DEVICE_PATH := device/infinix/max
 
 #Assert
-TARGET_OTA_ASSERT_DEVICE := RMX2020,RMX2027,rmx2020
+TARGET_OTA_ASSERT_DEVICE := X657C,x657c,max
 
 #Build
 BUILD_BROKEN_DUP_RULES := true

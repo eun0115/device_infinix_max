@@ -18,8 +18,8 @@
 
 set -e
 
-export DEVICE=RMX2020
-export VENDOR=realme
+export DEVICE=max
+export VENDOR=infinix
 
 INITIAL_COPYRIGHT_YEAR=2020
 
@@ -40,7 +40,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false
 
 # Copyright headers and guards
-write_headers "RMX2020"
+write_headers "max"
 
 # The standard blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
