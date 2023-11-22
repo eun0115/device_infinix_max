@@ -16,8 +16,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from X657C device makefile
 $(call inherit-product, device/infinix/max/device.mk)
@@ -27,8 +27,7 @@ TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X657C
-PRODUCT_NAME := aosp_max
+PRODUCT_NAME := lineage_max
 PRODUCT_BRAND := infinix
 PRODUCT_MODEL := Infinix SMART 5
 PRODUCT_MANUFACTURER := infinix
